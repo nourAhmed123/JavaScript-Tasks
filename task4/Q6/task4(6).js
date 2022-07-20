@@ -1,0 +1,10 @@
+var r=prompt('What is the area of your circle radius','type radius here');
+var area=(Math.PI*r*r);
+alert("Area of circle is "+area);
+var v=prompt("what is the value you want to calculate",'type value Here');
+var n=(Math.sqrt(v));
+alert("Square Root of "+v+" "+n);
+var angle=prompt("what is the angle you want to calculate cos value ",'type value Here');
+// var c=(Math.cos(angle));
+var c=parseFloat(Math.cos(Math.PI*angle/180).toFixed(3));
+document.write("cos "+angle+"  is  "+c);
