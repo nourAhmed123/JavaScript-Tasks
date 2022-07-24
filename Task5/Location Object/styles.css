@@ -1,0 +1,21 @@
+#container {
+  position: center;
+  width: 70%;
+  background-color: rgb(211, 211, 223);
+  margin-left: 50;
+  padding-left: 30;
+  padding-bottom: 50px;
+  padding-top: 15;
+}
+input {
+  width: 50%;
+  padding: 15px;
+
+  margin: 5px 0 22px 0;
+  display: flex;
+  border: none;
+  background: #f1f1f1;
+}
+input[type="radio"] {
+  display: itemlist-;
+}
