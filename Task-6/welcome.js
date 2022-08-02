@@ -32,11 +32,8 @@ function gender() {
 function VisitCounter() {
   console.log(visits);
   if (!visits) {
-    console.log("Test");
     visits = 0;
   }
   visits++;
   document.cookie = "counterCookie=" + visits + ";expires=" + date;
-
-  return visits;
 }
