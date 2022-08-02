@@ -1,6 +1,6 @@
 var date = new Date();
 date.setMonth(date.getMonth() + 3);
-
+var del = new Date();
 /*======================================*/
 function getGenderValue() {
   var genderValue;
@@ -51,6 +51,7 @@ function deleteAllcookie() {
     var name = Pos > -1 ? cookie.substring(0, Pos) : cookie;
     document.cookie = name + " =;expires=" + del;
   }
+  alert("Cookies Deleted Sucessfully");
   console.log(document.cookie);
 }
 
@@ -65,6 +66,12 @@ function getAllCookie() {
   return associativeCookie;
 }
 
-function deleteCookie(Delete) {
-  document.cookie = Delete + " =;expires=" + del;
+function deleteCookie() {
+  var deleteCookieInput = document.getElementById("deleteCookie").value;
+  if (document.cookie.match(deleteCookieInput)) {
+    document.cookie = deleteCookieInput + " =;expires=" + del;
+    alert(deleteCookieInput + " Deleted Sucessfully");
+  } else {
+    alert("This Cookie Is not Exist");
+  }
 }
