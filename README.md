@@ -4,6 +4,6 @@ This Repo Contains JavaScript Tasks Done by me during my internship in T-pay Mob
 
 Note :
 
-.Each Folder contain PDF For Tasks Explaination
+.Each Folder contains PDF For Tasks Explaination
 
-. Window object in task 5 and Task 6 Need To install live server extension on vs code for better performance.
+.Task-5(window object folder)  and Task 6 Need To install live server extension on vs code for better performance.
