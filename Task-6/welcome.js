@@ -2,7 +2,7 @@ var visits = getCookie("counterCookie");
 
 function getCookie(Name) {
   var CookieAssociative = getAllCookie();
-  console.log(Name);
+
   return CookieAssociative[Name];
 }
 
