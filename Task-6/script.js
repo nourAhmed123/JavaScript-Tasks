@@ -27,7 +27,6 @@ function saveUserInfo() {
 
   console.log(document.cookie);
   location.replace("cookie.html");
-  getAllCookie();
 }
 
 function hasCookies() {
@@ -35,8 +34,10 @@ function hasCookies() {
   var checkCookie = document.cookie.match(userCookieInput);
   var checked;
   if (checkCookie != null) {
+    checked = document.getElementById("warningAlert").innerHTML = " ";
     checked = document.getElementById("successAlert").innerHTML = "Exist";
   } else {
+    checked = document.getElementById("successAlert").innerHTML = " ";
     checked = document.getElementById("warningAlert").innerHTML = " Not Exist";
   }
 }

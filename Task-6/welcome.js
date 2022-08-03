@@ -2,12 +2,11 @@ var visits = getCookie("counterCookie");
 
 function getCookie(Name) {
   var CookieAssociative = getAllCookie();
+  console.log(Name);
   return CookieAssociative[Name];
 }
 
-function gender() {
-  console.log(document.cookie);
-  getAllCookie();
+function showUserData() {
   if (getCookie("GenderCookie") === "female") {
     document.images[0].src = "2.jpg";
   }
