@@ -6,4 +6,4 @@ Note :
 
 .Each Folder contains PDF For Tasks Explaination
 
-.Task-5(window object folder)  and Task 6 Need To install live server extension on vs code for better performance.
+.Task-5(window object folder)  and Task 6 Need To install live server extension on vs code and run on it for better performance.
